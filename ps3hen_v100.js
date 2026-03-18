@@ -2391,7 +2391,7 @@ function dex()
 
 		case "4.93":
 			//if(document.getElementById('dex').checked===true){loaddex_493();}//alert("calling loaddex_493");
-			//else {loadcex_492();}
+			//else {loadcex_493();}
 			//loadcex_493();
 			//disable_trigger();
 			break;
@@ -2819,7 +2819,14 @@ function ps3chk(){
 //					initDEX();
 					loadcex_492();
 					break;					
+				
 					
+				case fwCompat[35]:
+					//alert(msgHFW);
+//					initDEX();
+					loadcex_493();
+					break;					
+
 				default:
 					alert('Your PS3 is not on FW 4.80 - 4.93! Your current running FW version is ' + fwVersion + ', which is not compatible with PS3HEN. All features have been disabled');
 					disable_all();
